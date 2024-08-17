@@ -189,7 +189,7 @@ const Row3 = () => {
                                     dataKey = "value"
                                     stroke = "none"
                                 >
-                                    { data.map((entry, index) => (
+                                    { data.map((_, index) => (
                                         <Cell
                                             key = { `cell-${index}` }
                                             fill = { pieColors[index] }
