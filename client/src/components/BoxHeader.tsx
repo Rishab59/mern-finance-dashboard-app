@@ -1,7 +1,6 @@
 import React from "react";
-import { useTheme } from "@emotion/react";
 
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, useTheme } from "@mui/material";
 
 import FlexBetween from "./FlexBetween";
 
